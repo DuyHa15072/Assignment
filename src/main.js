@@ -1,6 +1,22 @@
-import '../style.css'
+import Navigo from "navigo";
+import AboutPage from "./pages/about";
+import HomePage from "./pages/home";
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+const router = new Navigo("/", { linksSelector: "a" });
+
+const print = (content) => {
+    document.getElementById("app").innerHTML = content;
+};
+
+router.on({
+    "/": () => {
+        print(HomePage.render());
+    },
+    "/about": () => {
+        print(AboutPage.render());
+    },
+    "/product": () => {
+
+    },
+});
+router.resolve();
