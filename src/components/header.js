@@ -8,9 +8,9 @@ const Header = {
                 <nav class="menu-item">
                     <ul class="flex ml-2">
                         <li class="mx-[15px] my-[10px] text-white "><a href="/" class="hover:border-b-[1px] border-white">Trang chủ</a></li>
-                        <li class="mx-[15px] my-[10px] text-white "><a href="/about" class="hover:border-b-[1px] border-white">Tuyển sinh</a></li>
-                        <li class="mx-[15px] my-[10px] text-white "><a href="/product" class="hover:border-b-[1px] border-white">Trương trình đào tạo</a></li>
-                        <li class="mx-[15px] my-[10px] text-white "><a href="/contact" class="hover:border-b-[1px] border-white">Góc sinh viên</a></li>
+                        <li class="mx-[15px] my-[10px] text-white "><a href="/about" class="hover:border-b-[1px] border-white">About pages</a></li>
+                        <li class="mx-[15px] my-[10px] text-white "><a href="/news" class="hover:border-b-[1px] border-white">News pages</a></li>
+                        <li class="mx-[15px] my-[10px] text-white "><a href="/signin" class="hover:border-b-[1px] border-white">Sign in</a></li>
                         <li class="mx-[15px] my-[10px] text-white "><a href="" class="hover:border-b-[1px] border-white">Tuyển dụng</a></li>
                     </ul>
                 </nav>
