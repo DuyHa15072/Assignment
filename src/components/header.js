@@ -2,7 +2,7 @@ const Header = {
     render() {
         return /*html*/ `
          <div class="header_top bg-[#272f54] py-[13px]">
-                <a href=""><img src="./img/logo.png" alt="" class="m-auto"></a>
+                <a href=""><img src="https://i.imgur.com/5EK1lFm.png" alt="" class="m-auto"></a>
             </div>
             <div class="header-main flex  bg-[#ca7802]">
                 <nav class="menu-item">
