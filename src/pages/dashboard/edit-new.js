@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import data from "../../data";
 
-const editNews = {
+const EditNews = {
     render(id) {
         const router = data.find((post) => post.id === id);
         return /* html */ `
@@ -75,4 +76,4 @@ const editNews = {
 `;
     },
 };
-export default editNews;
+export default EditNews;

@@ -4,7 +4,7 @@ import Footer from "./components/footer";
 import Headeradmin from "./components/admin/header";
 import Newsadmin from "./pages/dashboard/news";
 import Addnews from "./pages/dashboard/add-news";
-import editNews from "./pages/dashboard/edit-new";
+import EditNews from "./pages/dashboard/edit-new";
 
 const print = (dashboard) => {
     document.getElementById("header").innerHTML = Headeradmin.render();
@@ -24,7 +24,7 @@ router.on({
     },
     "/admin/news/edit/:id": ({ data }) => {
         const { id } = data;
-        print(editNews.render(id));
+        print(EditNews.render(id));
     },
 
 });
