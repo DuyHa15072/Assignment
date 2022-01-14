@@ -28,7 +28,6 @@ router.on({
     },
     "/news/:id": ({ data }) => {
         const { id } = data;
-        console.log(data);
         print(DetailNewsPage.render(id));
     },
     "/signin": () => {
