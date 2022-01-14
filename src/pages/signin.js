@@ -66,6 +66,7 @@ const Signin = {
                 </form>
               </div>
             </div>
+            
         `;
     },
 };
