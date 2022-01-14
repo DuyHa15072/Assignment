@@ -11,6 +11,7 @@ const Header = {
                         <li class="mx-[15px] my-[10px] text-white "><a href="/about" class="hover:border-b-[1px] border-white">About pages</a></li>
                         <li class="mx-[15px] my-[10px] text-white "><a href="/news" class="hover:border-b-[1px] border-white">News pages</a></li>
                         <li class="mx-[15px] my-[10px] text-white "><a href="/signin" class="hover:border-b-[1px] border-white">Sign in</a></li>
+                        <li class="mx-[15px] my-[10px] text-white "><a href="/signup" class="hover:border-b-[1px] border-white">Sign up</a></li>
                         <li class="mx-[15px] my-[10px] text-white "><a href="/admin/dashboard" class="hover:border-b-[1px] border-white">Admin</a></li>
                     </ul>
                 </nav>

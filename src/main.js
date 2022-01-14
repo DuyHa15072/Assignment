@@ -5,8 +5,8 @@ import AboutPage from "./pages/about";
 import DetailNewsPage from "./pages/detailNews";
 import HomePage from "./pages/home";
 import NewsPage from "./pages/news";
-import Signin from "./pages/signin";
 import Signup from "./pages/signup";
+import Signin from "./pages/signin";
 
 export const router = new Navigo("/", { linksSelector: "a" });
 
