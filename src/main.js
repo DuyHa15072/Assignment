@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import Navigo from "navigo";
 import Footer from "./components/footer";
 import Header from "./components/header";
@@ -35,6 +36,6 @@ router.on({
     },
     "/signup": () => {
         print(Signup.render());
-    }
+    },
 });
 router.resolve();

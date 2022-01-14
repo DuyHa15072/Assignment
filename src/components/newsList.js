@@ -1,8 +1,9 @@
+/* eslint-disable indent */
 import data from "../data";
 
 const NewsList = {
         render() {
-            return /*html*/ `
+            return /* html */ `
                 <h2 class="font-semibold text-2xl uppercase text-blue-800 my-4">Tin tức học tập</h2>
                 <div class="grid grid-cols-3 gap-8">
                     ${data.map((post) => `

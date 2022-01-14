@@ -24,9 +24,8 @@ router.on({
     },
     "/admin/news/edit/:id": ({ data }) => {
         const { id } = data;
-        console.log(id);
         print(editNews.render(id));
-    }
+    },
 
 });
 router.resolve();

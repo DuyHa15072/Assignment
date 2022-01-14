@@ -1,10 +1,9 @@
 import data from "../../data";
 
-
 const editNews = {
     render(id) {
-        const router = data.find((post) => post.id === id)
-        return /*html*/ `
+        const router = data.find((post) => post.id === id);
+        return /* html */ `
         <div class="max-w-5xl mx-auto">
     <form action="#" method="POST">
         <div class="shadow overflow-hidden sm:rounded-md">

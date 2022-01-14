@@ -1,8 +1,9 @@
+/* eslint-disable indent */
 import data from "../../data";
 
 const Newsadmin = {
         render() {
-            return /*html*/ `
+            return /* html */ `
              <div class="max-w-5xl mx-auto">
 <div class="-my-0 sm:-mx-6 lg:-mx-8">
   <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">

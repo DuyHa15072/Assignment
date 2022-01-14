@@ -1,6 +1,6 @@
 const Addnews = {
     render() {
-        return /*html*/ `
+        return /* html */ `
         <div class="max-w-5xl mx-auto">
         <form action="#" method="POST">
                 <div class="shadow overflow-hidden sm:rounded-md">
