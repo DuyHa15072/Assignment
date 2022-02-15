@@ -1,12 +1,13 @@
-import data from "../data";
+/* eslint-disable object-curly-spacing */
+import {get } from "../api/posts";
 
 const DetailNewsPage = {
-    render(id) {
-        const result = data.find((post) => post.id === id);
+    async render(id) {
+        const { data } = await get(id);
         return `
-            <h2>${result.title}</h2>
-            <img src="${result.img}" />
-            <p>${result.desc}</p>
+            <h1>${data.title}</h1>
+            <img src="${data.img}" />    
+            <p>${data.desc}</p>
         `;
     },
 };
